@@ -1,11 +1,23 @@
 body {
-  background-color: red;
+  background-color: palevioletred;
 }
 
 h1 {
   color: yellow;
 }
 
-button {
+.blue {
   background-color: blue;
 }
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: yellow;
+}
+
+/* button {
+  background-color: blue;
+} */

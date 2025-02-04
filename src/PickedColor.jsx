@@ -1,9 +1,16 @@
 const PickedColor = ({ selectColor, setSelectColor }) => {
+                    //this is the variable
+  
   return (
     <>
-      <button onClick={() => setSelectColor("Blue")}> Blue </button>
-      <button onClick={() => setSelectColor("Red")}>Red</button>
-      <button onClick={() => setSelectColor("Green ")}>Green</button>
+      <button className={selectColor} onClick={() => setSelectColor("blue")}> Blue </button>
+      <button onClick={() => setSelectColor("red")}>Red</button>
+      <button onClick={() => setSelectColor("green ")}>Green</button>
+
+      <button className={selectColor} onClick={() => setSelectColor("blue")}> Blue </button>
+      <button className={selectColor} onClick={() => setSelectColor("red")}> Red </button>
+      <button onClick={() => setSelectColor("green ")}>Green</button>
+
     </>
   );
 };

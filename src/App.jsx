@@ -16,7 +16,7 @@ console.log(selectColor || 'currently null');
      <h1>Color Picker</h1>
      <PickedColor selectColor={selectColor} setSelectColor={setSelectColor}/>
      
-     <ColorButton selectColor={selectColor} setSelectColor={setSelectColor}/>
+     {/* <ColorButton selectColor={selectColor} setSelectColor={setSelectColor}/> */}
     
     </div>
   );
